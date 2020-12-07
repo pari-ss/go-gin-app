@@ -20,3 +20,7 @@ blocks:
           value: 'on'
         - name: GOFLAGS
           value: '-mod=vendor'
+      agent:
+        machine:
+          type: e1-standard-2
+          os_image: ubuntu1804
